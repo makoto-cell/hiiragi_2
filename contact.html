@@ -39,7 +39,48 @@
 <section>
 <h2>フォームによるお問い合わせ</h2>
 <p>以下のフォームにご記入の上、送信してください。</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeirjCU4R8JToYVv5NpDP_VOwOyp_T6FWmSExyP4LKmaTNz4A/viewform?embedded=true" width="640" height="1346" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+<form action="https://ssgform.com/s/NxmOWYd0fwpt" method="post">
+<p>
+<label for="name">お名前（必須）:
+<input type="text" name="name" id="name" placeholder="全角で入力してください。" required>
+</label>
+</p>
+<p>
+<label for="userfurigana">フリガナ（任意）:
+<input type="text" name="userfurigana" id="userfurigana" placeholder="全角カタカナで入力
+してください。">
+</label>
+</p>
+<p>
+<label for="usertel">電話番号（必須）:
+<input type="tel" name="rtel" id="tel" placeholder="ハイフンなしの半角数字で入力してください。" required>
+</label>
+</p>
+<p>
+<label for="email">メールアドレス（必須）:
+<input type="email" name="email" id="email" placeholder="半角で入力してください。" required>
+</label>
+</p>
+<p>
+希望地域（複数選択可）:<br>
+<input type="checkbox" name="userchiiki" id="saiwai" value="幸区">
+<label for="saiwai">幸区</label>
+<input type="checkbox" name="userchiiki" id="nakahara" value="中原区">
+<label for="nakahara">中原区</label>
+<input type="checkbox" name="userchiiki" id="shinai" value="その他川崎市内">
+<label for="shinai">その他川崎市内</label>
+<input type="checkbox" name="userchiiki" id="shigai" value="川崎市以外">
+<label for="shigai">川崎市以外</label>
+</p>
+<p>
+<label for="usercomment">お問い合わせ内容:
+<textarea name="usercomment" id="usercomment" placeholder="できるだけ具体的な内容を入力してください。"></textarea>
+</label>
+</p>
+<p>
+<button type="submit">送信</button>
+</p>
+</form>
 </section>
 </article>
 <footer>
@@ -51,6 +92,7 @@ TEL 044-XXX-XXXX</address>
 </body>
 
 </html>
+
 
 
 
